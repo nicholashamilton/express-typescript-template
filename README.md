@@ -8,7 +8,7 @@ Template for Node + Express + TypeScript project
 - [x] Jest + SuperTest
 - [x] Prettier + ESLint
 
-### Set Up 
+### Scripts 
 
 Install dependencies 
 ```
