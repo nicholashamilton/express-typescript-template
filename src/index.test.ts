@@ -5,7 +5,7 @@ const app = new App();
 
 describe('Test Application', function () {
     test('GET /api', (done) => {
-        request(app.getApplication())
+        request(app.app)
             .get('/api')
             .expect(200, {
                 message: 'success',

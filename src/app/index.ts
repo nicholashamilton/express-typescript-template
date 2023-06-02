@@ -13,7 +13,7 @@ class App {
     public app: express.Application;
     public env: string;
     public port: string | number;
-    private routes: Routes[];
+    public routes: Routes[];
 
     constructor() {
         this.app = express();
@@ -35,10 +35,6 @@ class App {
             console.log(`http://localhost:${this.port}/api`);
             console.log(`=================================`);
         });
-    }
-
-    public getApplication() {
-        return this.app;
     }
 
     private initializeRoutes() {
