@@ -4,7 +4,7 @@ Template for Node + Express + TypeScript project
 
 - [x] Node + Express
 - [x] TypeScript
-- [x] Nodemon `hot reloading`
+- [x] Nodemon `hot reload`
 - [x] Jest + SuperTest
 - [x] Prettier + ESLint
 
